@@ -1,0 +1,126 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  /* height: 100vh; */
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  margin-bottom: 5%;
+  font-weight: 900;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+p {
+  color: #8f8f8f;
+}
+.container-fluid {
+  padding: 6% 15% 0%;
+}
+/* Navigation Bar */
+.navbar-brand {
+  font-family: 'Ubuntu', serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+  text-align: center;
+}
+.nav-item:hover .nav-link{
+  border-bottom: 3px solid pink;
+}
+.nav-link {
+  font-size: 1.2rem;
+
+}
+/* Title image */
+.title-img {
+  padding-top: 5%;
+  /* position: absolute; */
+  /* transform: rotate(25deg); */
+}
+
+/***********FRAUD*********/
+.hider {
+  display: inline-block;
+}
+.hider .hide{
+  display: none;
+}
+.hider:hover .hide{
+  display: inline-block;
+}
+.hider:hover .show{
+  display: none;
+}
+/****************COL- l6**************/
+/* Featues Section */
+#features {
+  padding: 10% 15% 7%;
+  position: relative;
+  background-color: #fff;
+  bottom: 20px;
+
+}
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #ff46c8;
+}
+/* testimonial */
+#testimonials {
+  padding: 7% 5%;
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.caurousel-item {
+  padding: 7% 15%;
+}
+.carousel-inner {
+  padding: 5%;
+}
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 15%;
+  margin: 0px 20px 50px;
+}
+.carousel-indicators {
+  margin-top: 2%;
+}
+/* Pricing section */
+#pricing {
+  padding: 7%;
+  text-align: center;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
